@@ -27,7 +27,7 @@ log = "0.4.14"
 memmap2 = "0.5.0"
 num_cpus = "1.13.0"
 ouroboros = "0.12.0"
-rand = "0.7.0"
+rand = "0.8.3"
 rayon = "1.5.1"
 regex = "1.5.4"
 serde = { version = "1.0.130", features = ["rc"] }
@@ -56,7 +56,7 @@ crate-type = ["lib"]
 name = "solana_runtime"
 
 [dev-dependencies]
-ed25519-dalek = "=1.0.1"
+ed25519-dalek = "=2.0.0"
 libsecp256k1 = "0.6.0"
 assert_matches = "1.5.0"
 
